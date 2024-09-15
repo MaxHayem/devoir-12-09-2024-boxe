@@ -1,0 +1,188 @@
+
+
+* {
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: 'FontCours';
+    src: url(fonts/LiberationSans-Regular-webfont.ttf);
+}
+
+@font-face {
+    font-family: 'FontCoursBold';
+    src: url(fonts/LiberationSans-Bold-webfont.ttf);
+}
+
+body{
+    background-color: rgb(48, 45, 45);
+    font-family: 'FontCoursBold';
+}
+
+.haut{
+    background-color: #F1F1F1;
+    width: 99vw;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/background.jpg);
+    font-family: 'FontCours';
+}
+
+.block2{
+    width: 55vw;
+    height: 100%;
+    position: relative;
+}
+
+.Julien{
+    text-align: right;
+    font-size: 20px;
+}
+
+.right{
+    text-align: right;
+}
+
+.milieu{
+    width: 99vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.block{
+    width: 55vw;
+    height: 100%;
+    background-color: #F1F1F1;
+    position: relative;
+}
+
+.pad{
+    height: 15px;
+    background-color: rgb(48, 45, 45);
+}
+.bottom{
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-indent: 10%;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 32px;
+}
+
+.image{
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 40px;
+    color: orange;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Minus45{
+    background-color: rgb(48, 45, 45);
+    border-radius: 10px;
+    border: 10px solid rgb(48, 45, 45);
+}
+
+.T0{
+    width: 20%;
+}
+.T1{
+    width: 44%;
+    background-color: rgb(48, 45, 45);
+    color: #F1F1F1;
+    font-size: 15px;
+}
+
+.T2{
+    width: 22%;
+    text-decoration-line: line-through;
+    font-size: 25px;
+}
+
+.T3{
+    width: 22%;
+    color: orange;
+    text-align: left;
+    font-size: 25px;
+}
+
+.bas{
+    background-color: #3b3939;
+    width: 99vw;
+    height: 49vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'FontCours';
+}
+
+.icones{
+    width: 25%;
+    text-align: center;
+}
+
+.pititxt{
+    text-align: center;
+    font-size: 10px;
+    color: #F1F1F1;
+}
+
+.ligne{
+    background-color: #777777;
+    width: 100%;
+    height: 3px;
+}
+
+.logos{
+    width: 10%;
+}
+
+.jsp{
+    width: 35%;
+}
+
+.copyright{
+    font-size: 12px;
+    color: #F1F1F1;
+}
+
+.chiant{
+    background-color: white;
+    width: 50%;
+    border-radius: 9px;
+}
+
+.chiant2{
+    width: 25%;
+}
+
+.chiant0{
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    margin: -40px;
+    position: absolute;
+}
+
+.point{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(199, 198, 198);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.e{
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}
